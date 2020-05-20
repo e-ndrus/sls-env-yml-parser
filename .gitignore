@@ -1,0 +1,8 @@
+/build/
+build/lib
+dist
+serverless_env_yml_parser.egg-info
+*.pyc
+__pycache__
+*.code-workspace
+settings.json
