@@ -1,0 +1,1 @@
+A package to extract environmental variables from serverless.env.yml for local development
