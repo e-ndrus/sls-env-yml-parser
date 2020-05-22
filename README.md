@@ -4,6 +4,20 @@
 
 A package to extract environmental variables from serverless.env.yml for local development.
 
+## Installation
+
+```
+pip install serverless-env-yml-parser
+```
+
+## Usage
+
+```
+if os.environ['STAGE'] == 'LOCAL':
+    from sls_env_yml_parser import yml_parser
+    yml_parser.parse_env_yml("serverless.env.yml")
+```
+
 ## Where to get it
 
 The source code is currently hosted on GitHub at:
